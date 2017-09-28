@@ -7,23 +7,28 @@
     <title>Document</title>
     <!--Bootstrap stylesheets-->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
     <!--  Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
     <!-- My own stylesheets-->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-
     <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
         <div class="topNav">
             <div class="container-fluid">
                 <div class="top-contact">
                     <ul>
-                        <li><a href="">Telephone number</a></li>
-                        <li><a href="">mail</a></li>
-                        <li><a href="">social icons</a></li>
+                        <li><a href="">tel. kom. (0048) 601426175</a></li>
+                        <li><a href="">kamieniarstwo@tarnawski.com.pl</a></li>
+                        <li>
+                        <a href="" data-toggle="tooltip" title="facebook.pl" data-placement="left"><i class="ion ion-social-facebook"></i></a>
+                        <a href="" data-toggle="tooltip" title="tel./fax. (0048) 32 6239204 w godz. (9.00-17.00)" data-placement="left"><i class="ion ion-ios-telephone"></i></a>
+                        
+                        
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -44,10 +49,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">O nas <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="index.html">O nas <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">Jak do nas trafić</a></li>
-                    <li><a href="#">Projekty</a></li>
-                    <li><a href="#">Galeria</a></li>
+                    <li><a href="services.html">Usługi</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="nagrobki.html">Nagrobki</a></li>
+                            <li><a href="#">Elementy budowlane</a></li>
+                            <li><a href="#">Kamieniarstwo sakralne</a></li>
+<!--                            <li role="separator" class="divider"></li>-->
+                            <li><a href="#">Materiały</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Kontakt</a></li>
 
                 </ul>
@@ -263,7 +277,7 @@
             </div>
         </div>
     </section>
-    <section class="testimonials">
+    <section class="testimonials parallax--bg">
         <div class="container container-testimonials">
             <div class="row">
                 <div class="col-lg-12 column-testimonials">
@@ -446,64 +460,63 @@
                     <div class="column-text text-left">
                         <h5>Nasze usługi</h5>
                         <h2>Zbuduj swoje marzenie<br>z nami.</h2>
-<!--                        <div class="icon-divider"></div>-->
-                        <p>Wnętrz Państwa domów, sklepów, firm, zakładów, biur, ogrodów itp. Kamień naturalny to materiał trwały, odporny na wszystkie temperatury, a także funkcjonalny, łatwy w utrzymaniu, dlatego jest do takich celów idealny i coraz częściej wybierany. 
-Kamień posiada, magię i urok, drzemie w nim tajemnica i życie, to wpływa na jego atrakcyjność i dostojność.</p>
+                        <!--                        <div class="icon-divider"></div>-->
+                        <p>Wnętrz Państwa domów, sklepów, firm, zakładów, biur, ogrodów itp. Kamień naturalny to materiał trwały, odporny na wszystkie temperatury, a także funkcjonalny, łatwy w utrzymaniu, dlatego jest do takich celów idealny i coraz częściej wybierany. Kamień posiada, magię i urok, drzemie w nim tajemnica i życie, to wpływa na jego atrakcyjność i dostojność.</p>
                         <button class="btn btn-lg btn-warning">Zobacz więcej</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="cube">
                         <div class="active-state">
-                          
+
                             <p>Wykonujemy nagrobki i grobowce według naszych projektów oraz na indywidualne zamówienia klienta. </p>
                             <button class="btn btn-lg btn-warning">Zobacz więcej</button>
                         </div>
                         <div class="default-state bg1">
-                           <i class="fa fa-university fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-university fa-3x" aria-hidden="true"></i>
                             <h2>Nagrobki i grobowce</h2>
                         </div>
                     </div>
                     <div class="cube">
                         <div class="active-state">
-                           
+
                             <p>Wykonujemy także elementy z kamienia dla budownictwa. Każdy element przygotowujemy, według Państwa indywidualnych wymagań.</p>
                             <button class="btn btn-lg btn-warning">Zobacz więcej</button>
                         </div>
                         <div class="default-state bg2">
-                           <i class="fa fa-gavel fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-gavel fa-3x" aria-hidden="true"></i>
                             <h2>Elementy budowlane</h2>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        
+
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="cube">
                         <div class="active-state">
-                         
+
                             <p>Oferujemy nowoczesne pomniki cmentarne, ekskluzywne grobowce oraz kolumbaria.</p>
                             <button class="btn btn-lg btn-warning">Zobacz więcej</button>
                         </div>
                         <div class="default-state bg3">
-                           <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
                             <h2>Kamieniarstwo sakralne</h2>
                         </div>
                     </div>
                     <div class="cube">
                         <div class="active-state">
-                         
+
                             <p>Importujemy kamień z całego świata, proponując tym samym Państwu bogatą jego gamę kolorystyczną, a także wiele wzorów.</p>
                             <button class="btn btn-lg btn-warning">Zobacz więcej</button>
                         </div>
                         <div class="default-state bg4">
-                           <i class="fa fa-cube fa-3x" aria-hidden="true"></i>
+                            <i class="fa fa-cube fa-3x" aria-hidden="true"></i>
                             <h2>Materiały</h2>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        
+
                     </div>
                 </div>
             </div>
@@ -514,7 +527,108 @@ Kamień posiada, magię i urok, drzemie w nim tajemnica i życie, to wpływa na 
             <h2>Wszystko to sprawia, iż oferowane przez Kamieniarstwo - Tarnawski materiały podkreślą elegancję Państwa wnętrz i uwypuklą ich charakter.</h2>
         </div>
     </section>
-
+    <section class="contact">
+        <div class="container-fluid contact-container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h6>Kontakt</h6>
+                    <div class="contact-column">
+                        <div class="contact-block">
+                            <div class="contact-name">
+                                Adres:
+                            </div>
+                            <div class="contact-value">
+                                ul. Balińska 47 | 32-500 Chrzanów, Polska
+                            </div>
+                        </div>
+                        <div class="contact-block">
+                            <div class="contact-name">
+                                Telefon:
+                            </div>
+                            <div class="contact-value">
+                                tel./fax. (0048) 32 6239204<br> w godz. (9.00-17.00)<br> tel. kom. (0048) 601426175
+                            </div>
+                        </div>
+                        <div class="contact-block">
+                            <div class="contact-name">
+                                Zakład Produkcyjny
+                            </div>
+                            <div class="contact-value">
+                                ul. Kopanina 12 | 32-500 Chrzanów, Polska
+                            </div>
+                        </div>
+                        <div class="contact-block">
+                            <div class="contact-name">
+                                English:
+                            </div>
+                            <div class="contact-value">
+                                Bogna Tarnawska -<br> tel. kom. (0048) 691864366
+                            </div>
+                        </div>
+                        <div class="contact-block">
+                            <div class="contact-name">
+                                Email:
+                            </div>
+                            <div class="contact-value">
+                                <a href="">kamieniarstwo@tarnawski.com.pl</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="contact-column">
+                        <h6>Mapa</h6>
+                        <div class="contact-map">
+                            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2556.7778667599564!2d19.39955038583454!3d50.14658724188082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716e94ba08dd525%3A0x6841ff5c6c4e0982!2zQmFsacWEc2thIDQ3LCBDaHJ6YW7Ds3c!5e0!3m2!1spl!2spl!4v1506003514392" width="100%" height="400" frameborder="0" style="border:1px solid gray" allowfullscreen></iframe></div>
+                        </div>
+                        <map name=""></map>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-column">
+                        <h6>Napisz do nas</h6>
+                        
+                        <!--
+                        <form method="post" action="/send_form.php" id="contact_form">
+                            <div><label for="name">Imię i nazwisko</label></div>
+                            <div><input type="text" name="name" id="name" class="formField" /></div>
+                            <div><label for="phone">Numer telefonu</label></div>
+                            <div><input type="text" name="phone" id="phone" class="formField" /></div>
+                            <div><label for="email">Adres email</label></div>
+                            <div><input type="text" name="email" id="email" class="formField" /></div>
+                            <div><label for="message">Treść wiadomości</label></div>
+                            <div><textarea name="message" id="message" class="formField"></textarea></div>
+                            <div><button id="sendBtn" class="btn btn-md btn-warning">Wyślij</button></div>
+                        </form>
+-->
+                        <form action="https://formspree.io/edi779@gmail.com" method="POST">
+                           <label for="name">Imię i nazwisko</label>
+                            <input type="text" name="name">
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email">
+                            <label for="number">Numer telefonu:</label>
+                            <input type="number" name="number">
+                            <label for="area">Wiadomość</label>
+                            <textarea name="area" id="" cols="30" rows="5"></textarea>
+                            <input type="submit" value="Wyślij" class="btn btn-lg btn-warning">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="copy">Copyright &copy; Kamieniarstwo | Tarnawski. <sup>All Rights Reserved</sup></p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="made">Strona stworzona przez: Adrian Bzowski - 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -525,6 +639,7 @@ Kamień posiada, magię i urok, drzemie w nim tajemnica i życie, to wpływa na 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
