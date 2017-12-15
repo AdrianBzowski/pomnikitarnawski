@@ -7,12 +7,11 @@
     <title>Kamieniarstwo Tarnawski</title>
     <!--Bootstrap stylesheets-->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
     <!--  Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
     <!-- My own stylesheets-->
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -22,9 +21,12 @@
             <div class="container-fluid">
                 <div class="top-contact">
                     <ul>
-                        <li><a href="">Telephone number</a></li>
-                        <li><a href="">mail</a></li>
-                        <li><a href="">social icons</a></li>
+
+                        <li><a href="mailto:kamieniarstwo@tarnawski.com.pl">kamieniarstwo@tarnawski.com.pl</a></li>
+                        <li>
+                            <a href="" data-toggle="tooltip" title="facebook.pl" data-placement="left"><i class="ion ion-social-facebook"></i></a>
+                            <a href="" data-toggle="tooltip" title="tel./fax. (0048) 32 6239204 w godz. (9.00-17.00)" data-placement="left"><i class="ion ion-ios-telephone"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -38,7 +40,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                <a class="navbar-brand" href="#">Kamieniarstwo | Tarnawski</a>
+                <a class="navbar-brand" href="#">Kamieniarstwo | Tarnawski<br><span>rok zał. 1961</span></a>
 
             </div>
 
@@ -46,7 +48,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">O nas <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Jak do nas trafić</a></li>
+                    <li><a href="#contact">Jak do nas trafić</a></li>
                     <li class="active"><a href="services.html">Usługi</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
@@ -54,28 +56,11 @@
                             <li><a href="nagrobki.html">Nagrobki</a></li>
                             <li><a href="#">Elementy budowlane</a></li>
                             <li><a href="#">Kamieniarstwo sakralne</a></li>
-<!--                            <li role="separator" class="divider"></li>-->
+                            <!--                            <li role="separator" class="divider"></li>-->
                             <li><a href="#">Materiały</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Kontakt</a></li>
-
                 </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -102,7 +87,7 @@
                         <p>
 
 
-                            <a href="#" class="btn btn-lg btn-warning" role="button">
+                            <a href="nagrobki.html" class="btn btn-lg btn-warning" role="button">
                Zobacz
             </a>
                         </p>
@@ -173,8 +158,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>

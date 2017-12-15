@@ -1,0 +1,101 @@
+.topNav {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+.topNav .top-contact ul {
+    padding-left: 0;
+}
+
+.topNav .top-contact ul li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0px 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+.topNav .top-contact ul li .ion {
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.topNav .top-contact ul li a {
+    color: #fff;
+}
+
+.topNav .top-contact ul li:nth-child(3) {
+    float: right;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: none;
+}
+
+
+/*navbar---///*/
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand span {
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.navbar-default .navbar-brand:hover {
+    color: #f0ad4e;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    transition: 0.2s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #f0ad4e;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: #6b93ff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar .main-nav {
+    margin-top: 10px;
+}
+
+
+/*collapsing topbar color */
+
+.navBg {
+    background-color: #2c2823;
+    transition: 0.3s;
+}
+
+.nagrobki-galeria {
+    margin-top: 200px;
+}
+.img-thumbnail {
+    
+    max-height: 300px;
+    
+}

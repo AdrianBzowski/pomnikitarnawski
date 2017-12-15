@@ -19,6 +19,10 @@
     border-color: #eea236;
 }
 
+.carousel-inner .carousel-caption p {
+    letter-spacing: 2px;
+}
+
 .carousel-caption {
     padding-bottom: 50px;
 }
@@ -41,6 +45,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.5);
     color: #fff;
 }
+
 .topNav .top-contact ul li .ion {
     padding: 0px 10px;
     font-size: 20px;
@@ -73,6 +78,15 @@
 
 .navbar-default .navbar-brand {
     color: #fff;
+}
+
+.navbar-default .navbar-brand span {
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.navbar-default .navbar-brand:hover {
+    color: #f0ad4e;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -124,11 +138,36 @@
 }
 
 .carousel-inner .item {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(130, 140, 149, 0.5) 36%, rgba(40, 52, 59, 0.5) 100%), url(../img/etienne-beauregard-riverin-47883.jpg);
-    background-size: cover;
-    background-position: center;
     width: 100vw;
     height: 90vh;
+}
+
+.carousel-inner .item1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(16, 19, 21, 0.5) 36%, rgba(0, 0, 0, 0.5) 100%), url(../images/11.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: animatedBackground 40s linear infinite;
+}
+
+.carousel-inner .item2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(16, 19, 21, 0.5) 36%, rgba(0, 0, 0, 0.5) 100%), url(../images/P1100737.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-inner .item3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(16, 19, 21, 0.5) 36%, rgba(0, 0, 0, 0.5) 100%), url(../images/DSC_2491.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes animatedBackground {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2)
+    }
 }
 
 .carousel-control.right,
@@ -162,17 +201,10 @@
 .hero .hero-text p {
     color: #fff;
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 100;
     font-style: italic;
-}
-
-.hero .hero-text p::before {
-    content: "\f10e";
-    font-family: FontAwesome;
-    font-size: 24px;
-    font-weight: 100;
 }
 
 .hero .hero-text .btn {
@@ -200,37 +232,50 @@
 }
 
 
-/*section about*/
+/*section services*/
 
-.about {
-    margin-top: 200px;
-}
-
-.column-inner .wrapper .wrapper-inner .figure img {
-    width: 100%;
-}
-
-.about .col-lg-4:nth-child(2) {
-    border-right: 1px solid rgba(0, 0, 0, 0.5);
-    border-left: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-.column-inner .wrapper .text-column h3 {
-    font-family: 'Montserrat';
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    padding-bottom: 10px;
-}
-
-.column-inner .wrapper .text-column .fa {
-    float: right;
-    color: #ffa422;
-}
-
-.column-inner .wrapper .text-column p {
-    font-family: 'Montserrat';
+.services {
+    padding: 200px 0px 0px 0px;
+    font-family: 'montserrat';
     letter-spacing: 1px;
+}
+
+.services .ion {
+    padding-top: 20px;
+    font-size: 34px;
+}
+
+.services .column-text .icon-divider {
+    left: 150px;
+}
+
+.services .column-text h5 {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.services .column-text h2 {
+    text-transform: uppercase;
+}
+
+.services .column-text p {
+    margin-top: 30px;
+}
+
+.services .column-text .btn {
+    margin-top: 30px;
+    width: 200px;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.services .column-text .btn:hover {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 
@@ -244,41 +289,76 @@
     background-color: #F3F3EF;
 }
 
-.skills .row .col-lg-6 {
+.skills .row .col-lg-12 {
     padding: 0;
     margin: 0;
 }
 
 .skills .column-inner .wrapper {
     width: 100%;
-    min-height: 995px;
-    background: url(../img/etienne-beauregard-riverin-47883.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(16, 19, 21, 0.7) 36%, rgba(0, 0, 0, 0.7) 100%), url(../images/20160609_140438.jpg);
     background-size: cover;
     background-position: center;
 }
-
-.skills .text-inner {
-    width: 100%;
-    min-height: 800px;
-    padding: 0px 100px;
+.skills .column-inner .wrapper .onas-text {
+    color:#fff;
     font-family: 'montserrat';
     text-align: center;
-    word-wrap: break-word;
+    line-height: 1.4;
+    padding: 0px 50px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top:250px;
+    padding-bottom: 50px;
+    margin: 0;
+    
 }
-
-.skills .text-inner h5 {
-    font-size: 16px;
-    padding-top: 70px;
-    font-style: italic;
-    color: #656b6f;
+.skills .column-inner .wrapper .onas-text span {
+    color: #f0ad4e;
+    font-size: 20px;
+}
+.skills-text {
+    color: #fff;
+    font-family: "montserrat";
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
     margin: 0;
 }
 
-.skills .text-inner h2 {
-    text-transform: uppercase;
-    color: #333743;
-    line-height: 37px;
-    letter-spacing: 1px;
+.shivas {
+    margin: 0;
+    position: absolute;
+    display:flex;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shiva {
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    float: left;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px 50px;
+}
+.shiva-inner h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'montserrat';
+}
+
+.count {
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 35%;
 }
 
 .icon-divider {
@@ -313,14 +393,6 @@
     top: 2px;
     background-position: right;
     left: 6px;
-}
-
-.skills .text-inner p {
-    color: #656b6f;
-    letter-spacing: 1px;
-    line-height: 21px;
-    font-size: 14px;
-    padding-bottom: 30px;
 }
 
 .skills .wrapper .column-inner {
@@ -423,76 +495,6 @@
 
 
 /*clients*/
-
-.clients {
-    font-family: 'montserrat';
-    padding: 70px 0px;
-    letter-spacing: 1px;
-    background-color: #F3F3EF;
-}
-
-.clients .clients-container .text-column {
-    margin-bottom: 50px;
-}
-
-.clients .clients-container .text-column h5 {
-    font-style: italic;
-    font-size: 16px;
-}
-
-.clients .clients-container .text-column h2 {
-    text-transform: uppercase;
-}
-
-.clients .clients-container .company-row:hover .wrapper {
-    opacity: 0.4;
-    transition: 0.3s;
-}
-
-.clients .clients-container .company-row:hover .wrapper:hover {
-    opacity: 1;
-    transition: 0.3s;
-}
-
-.services {
-    padding: 100px 0px;
-    font-family: 'montserrat';
-    letter-spacing: 1px;
-}
-
-.services .column-text .icon-divider {
-    left: 150px;
-}
-
-.services .column-text h5 {
-    font-style: italic;
-    font-size: 16px;
-}
-
-.services .column-text h2 {
-    text-transform: uppercase;
-}
-
-.services .column-text p {
-    margin-top: 30px;
-}
-
-.services .column-text .btn {
-    margin-top: 30px;
-    width: 200px;
-    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 25px;
-    transition: 0.3s;
-}
-
-.services .column-text .btn:hover {
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-
 
 /*flipBox*/
 
@@ -620,7 +622,7 @@
     font-family: 'montserrat';
 }
 
-.contact h6 {
+.contact h6, h4 {
     color: #8b8b8b;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -666,8 +668,8 @@
     font-weight: 200;
     display: block;
     font-size: 16px;
-    
 }
+
 .contact-column form input {
     color: #fff;
     background-color: rgba(111, 111, 111, 0.5);
@@ -678,12 +680,14 @@
     box-sizing: border-box;
     border: 1px solid rgba(113, 113, 113, 0.53);
 }
+
 .contact-column form textarea {
     color: #fff;
     background-color: rgba(111, 111, 111, 0.5);
     border: 1px solid rgba(113, 113, 113, 0.53);
     letter-spacing: 1px;
 }
+
 .contact-column form .btn {
     background-color: #f0ad4e;
     color: #000000;
@@ -693,11 +697,14 @@
     border-radius: 25px;
     transition: 0.2s;
 }
+
 .contact-column form .btn:hover {
-   background-color: #c47e1b;
+    background-color: #c47e1b;
 }
 
+
 /*SERVICES PAGE*/
+
 
 /*====================*/
 
@@ -708,31 +715,32 @@
     width: 100%;
     height: 100vh;
 }
+
 .servicesPage-container {
     text-align: center;
-    
 }
+
 .servicesPage .servicesPage-container h1 {
     margin-top: 200px;
     color: #333;
     letter-spacing: 1px;
 }
+
 .servicesPage-container .icon-divider {
     border: 1px solid #333;
 }
+
 .servicesPage-container .icon-divider::before,
 .servicesPage-container .icon-divider::after {
     background-color: #333;
 }
+
 .servicesPage .servicesPage-container .btn {
     border-radius: 25px;
     margin-top: 10px;
 }
+
 .nagrobki-galeria {
     width: 100%;
     height: 100vh;
 }
-
-
-
-
