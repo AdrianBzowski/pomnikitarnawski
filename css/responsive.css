@@ -1,0 +1,47 @@
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .navbar {
+        background-color: #2c2823 !important;
+    }
+    .navbar-brand {
+        font-size: 13px;
+        padding: 5px 15px;
+        
+    }
+    .hero .hero-text h1 {
+        font-size: 21px;
+        line-height: 40px;
+    }
+    .skills .column-inner .wrapper .onas-text {
+        font-size: 13px;
+    }
+    .hero .hero-text .btn {
+        display: none;
+    }
+    .carousel-indicators {
+        display:none;
+    }
+    .item h3 {
+        font-size: 15px;
+    }
+    .item p {
+        font-size: 12px;
+    }
+    .hero .hero-text p {
+        font-size: 12px;
+    }
+    .carousel-caption {
+        padding-bottom: 0px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 703px) {
+    .navbar-brand {
+        font-size: 13px;
+    }
+    .hero .hero-text h1 {
+        font-size: 38px;
+    }
+    .skills .column-inner .wrapper .onas-text {
+        font-size: 16px;
+    }
+    
+}

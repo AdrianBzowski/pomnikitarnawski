@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
     <!-- My own stylesheets-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
@@ -24,8 +25,8 @@
 
                         <li><a href="mailto:kamieniarstwo@tarnawski.com.pl">kamieniarstwo@tarnawski.com.pl</a></li>
                         <li>
-                            <a href="" data-toggle="tooltip" title="facebook.pl" data-placement="left"><i class="ion ion-social-facebook"></i></a>
-                            <a href="" data-toggle="tooltip" title="tel./fax. (0048) 32 6239204 w godz. (9.00-17.00)" data-placement="left"><i class="ion ion-ios-telephone"></i></a>
+                            <a data-toggle="tooltip" title="facebook.pl" data-placement="right"><i class="ion ion-social-facebook"></i></a>
+                            <a data-toggle="tooltip" title="tel./fax. (0048) 32 6239204 w godz. (9.00-17.00)" data-placement="right"><i class="ion ion-ios-telephone"></i></a>
 
 
                         </li>
@@ -42,7 +43,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                <a class="navbar-brand" href="#">Kamieniarstwo | Tarnawski<br><span>rok zał. 1961</span></a>
+                <a class="navbar-brand" href="index.html">Kamieniarstwo | Tarnawski<br><span>rok zał. 1961</span></a>
 
             </div>
 
@@ -50,16 +51,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">O nas <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#contact">Jak do nas trafić</a></li>
-                    <li><a href="services.html">Usługi</a></li>
+                    <li><a href="index.html#contact">Jak do nas trafić</a></li>
+                    
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="nagrobki.html">Nagrobki</a></li>
-                            <li><a href="#">Elementy budowlane</a></li>
-                            <li><a href="#">Kamieniarstwo sakralne</a></li>
+                            <li><a href="elementy.html">Elementy budowlane</a></li>
+                            <li><a href="sakralne.html">Kamieniarstwo sakralne</a></li>
                             <!--                            <li role="separator" class="divider"></li>-->
-                            <li><a href="#">Materiały</a></li>
+                            <li><a href="urny.html">Urny</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -130,7 +131,7 @@
                         <h2>Zbuduj swoje marzenie<br>z nami.</h2>
                         <!--                        <div class="icon-divider"></div>-->
                         <p>Wnętrz Państwa domów, sklepów, firm, zakładów, biur, ogrodów itp. Kamień naturalny to materiał trwały, odporny na wszystkie temperatury, a także funkcjonalny, łatwy w utrzymaniu, dlatego jest do takich celów idealny i coraz częściej wybierany. Kamień posiada, magię i urok, drzemie w nim tajemnica i życie, to wpływa na jego atrakcyjność i dostojność.</p>
-                        <button class="btn btn-lg btn-warning">Zobacz więcej</button>
+                        
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -138,7 +139,7 @@
                         <div class="active-state">
 
                             <p>Wykonujemy nagrobki i grobowce według naszych projektów oraz na indywidualne zamówienia klienta. </p>
-                            <button class="btn btn-lg btn-warning">Zobacz więcej</button>
+                            <button class="btn btn-lg btn-warning"><a href="nagrobki.html">Zobacz więcej</a></button>
                         </div>
                         <div class="default-state bg1">
                             <!--            ikona                **--><i class="ion ion-hammer"></i>
@@ -149,7 +150,7 @@
                         <div class="active-state">
 
                             <p>Wykonujemy także elementy z kamienia dla budownictwa. Każdy element przygotowujemy, według Państwa indywidualnych wymagań.</p>
-                            <button class="btn btn-lg btn-warning">Zobacz więcej</button>
+                            <button class="btn btn-lg btn-warning"><a href="elementy.html">Zobacz więcej</a></button>
                         </div>
                         <div class="default-state bg2">
                             <i class="ion ion-cube"></i>
@@ -165,7 +166,7 @@
                         <div class="active-state">
 
                             <p>Oferujemy nowoczesne pomniki cmentarne, ekskluzywne grobowce oraz kolumbaria.</p>
-                            <button class="btn btn-lg btn-warning">Zobacz więcej</button>
+                            <button class="btn btn-lg btn-warning"><a href="sakralne.html">Zobacz więcej</a></button>
                         </div>
                         <div class="default-state bg3">
                             <i class="ion ion-flame"></i>
@@ -176,11 +177,11 @@
                         <div class="active-state">
 
                             <p>Importujemy kamień z całego świata, proponując tym samym Państwu bogatą jego gamę kolorystyczną.</p>
-                            <button class="btn btn-lg btn-warning">Zobacz więcej</button>
+                            <button class="btn btn-lg btn-warning"><a href="urny.html">Zobacz więcej</a></button>
                         </div>
                         <div class="default-state bg4">
                             <i class="ion ion-ios-box"></i>
-                            <h2>Materiały</h2>
+                            <h2>Urny</h2>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -201,32 +202,6 @@
                         <div class="wrapper">
                             <div class="skills-text">O NAS<br>
                                 <div class="icon-divider"></div>
-                            </div>
-
-
-                            <div class="shivas">
-                                <!--           JS counter            -->
-                                <div class="shiva-inner">
-                                    <div class="shiva">
-                                        <span class="count" data-count="76">0</span>
-                                    </div>
-                                    <h5>Zadowolonych klientów</h5>
-                                </div>
-
-                                <div class="shiva-inner">
-                                    <div class="shiva">
-                                        <span class="count" data-count="41">0</span>
-                                    </div>
-                                    <h5>Zrealizowanych projektów</h5>
-                                </div>
-                                <div class="shiva-inner">
-                                    <div class="shiva">
-                                        <span class="count" data-count="243">0</span>
-                                    </div>
-                                    <h5>Wypitych kaw</h5>
-                                </div>
-
-
                             </div>
 
                             <h3 class="onas-text"><span>Naszym zadaniem jest:</span> realizacja Państwa zamówień w jak najszybszym terminie, wykonanie każdego projektu klienta, oferowanie materiałów najwyższej jakości, zdobycie każdego wzoru i koloru, a także przedstawienie Państwu najnowszych trendów w kamieniarstwie. <span>Swoją pozycję na rynku</span> zawdzięczamy nie tylko wysokiej jakości świadczonych usług, doświadczeniu, terminowości, bogatemu zapleczu technicznemu i wyszkolonym pracownikom, ale także wysokiej jakości i różnorodności wykorzystywanych materiałów. W naszej ofercie znajdziecie Państwo: granit, marmur, aglomarmur oraz kwarcyt. Importujemy kamień z całego świata, proponując tym samym Państwu bogatą jego gamę kolorystyczną, a także wiele wzorów. Wykonujemy nagrobki i grobowce według naszych projektów oraz na indywidualne zamówienia klienta. Wykonujemy także elementy z kamienia dla budownictwa, takie jak: parapety, schody, blaty kuchenne, blaty łazienkowe, elementy na kominki, elementy ścienne oraz wyposażenie wnętrz (stoły, kolumny, półki, poręcze, obudowy na wanny, oprawy marmurowe na lustra, ramki marmurowe na zdjęcia, progi do drzwi, itp.). Pamiętajcie Państwo - <span>Celem naszej firmy</span> jest spełnianie Państwa marzeń, więc ciągle czekamy na nowe pomysły naszych klientów.</h3>
@@ -325,82 +300,6 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials parallax--bg">
-        <div class="container container-testimonials">
-            <div class="row">
-                <div class="col-lg-12 column-testimonials">
-                    <h5>Opinie</h5>
-                    <h2>Co o nas mówią</h2>
-                    <div class="icon-divider"></div>
-                    <p>Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor.<br> Proin maximus posuere felis a tincidunt.<br> Etiam sit amet ligula eget libero suscipit semper eget ornare magna. <br>Phasellus non est ligula. Nulla auctor neque non tortor.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 column-inner-testimonials">
-                    <div class="column-inner">
-                        <div class="img-text-column">
-                            <div class="img-column">
-                                <div class="img-wrapper">
-
-                                </div>
-                            </div>
-                            <div class="text-column">
-                                <div class="text-header">
-                                    <h3>Marcin Krakowiak</h3>
-                                </div>
-                                <div class="text-description">
-                                    Miła i fachowa obsługa.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 column-inner-testimonials">
-                    <div class="column-inner">
-                        <div class="img-text-column">
-                            <div class="img-column">
-                                <div class="img-wrapper">
-
-                                </div>
-                            </div>
-                            <div class="text-column">
-                                <div class="text-header">
-                                    <h3>Scott burton</h3>
-                                </div>
-                                <div class="text-description">
-                                    Super!
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 column-inner-testimonials">
-                    <div class="column-inner">
-                        <div class="img-text-column">
-                            <div class="img-column">
-                                <div class="img-wrapper">
-
-                                </div>
-                            </div>
-                            <div class="text-column">
-                                <div class="text-header">
-                                    <h3>Scott burton</h3>
-                                </div>
-                                <div class="text-description">
-                                    Super!
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
         </div>
     </section>

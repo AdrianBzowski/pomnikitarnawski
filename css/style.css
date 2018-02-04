@@ -143,7 +143,7 @@
 }
 
 .carousel-inner .item1 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(16, 19, 21, 0.5) 36%, rgba(0, 0, 0, 0.5) 100%), url(../images/11.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(16, 19, 21, 0.5) 36%, rgba(0, 0, 0, 0.5) 100%), url(../images/grobowiec/11.jpg);
     background-size: cover;
     background-position: center;
     animation: animatedBackground 40s linear infinite;
@@ -308,7 +308,6 @@
     padding: 0px 50px;
     letter-spacing: 2px;
     font-size: 18px;
-    padding-top:250px;
     padding-bottom: 50px;
     margin: 0;
     
@@ -509,25 +508,25 @@
 }
 
 .cube .bg1 {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/etienne-beauregard-riverin-47883.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/grobowiec/7.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .cube .bg2 {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/etienne-beauregard-riverin-47883.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/elementy/DSC_5256.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .cube .bg3 {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/etienne-beauregard-riverin-47883.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sakralne/szczecin2005190.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .cube .bg4 {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/etienne-beauregard-riverin-47883.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/urny/urna%2022.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -537,6 +536,11 @@
     margin: 0;
     padding: 0;
     line-height: 90px;
+}
+.cube a {
+    list-style-type: none;
+    color: #fff;
+        
 }
 
 .cube h2 {
