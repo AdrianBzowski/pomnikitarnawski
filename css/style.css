@@ -143,7 +143,7 @@
 }
 
 .carousel-inner .item1 {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(16, 19, 21, 0.5) 36%, rgba(0, 0, 0, 0.5) 100%), url(11.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(16, 19, 21, 0.5) 36%, rgba(0, 0, 0, 0.5) 100%), url(../11.jpg);
     background-size: cover;
     background-position: center;
     animation: animatedBackground 40s linear infinite;
@@ -514,7 +514,7 @@
 }
 
 .cube .bg2 {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(DSC_5256.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../DSC_5256.jpg);
     background-size: cover;
     background-position: center;
 }
